@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.clear {
+    clear: both;
+}
+
+.contents {
+    width: 100%;
+    height: 100%;
+}
+
+.contents ul li {
+    float: right;
+    margin: 15px 45px 15px 45px;
+    list-style: none;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.contents ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.contents img {
+    float: left;
+    width: 140px;
+    height: 45px;
+    margin: 7.5px 0px 0px 80px;
+}
+
+.Apply {
+    border: 1px solid #717cff;
+    border-radius: 15px;
+    padding: 0 0 0 0;
+}
+
+.Apply:hover {
+    background-color: #717cff;
+}
+
+section {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.applyonline {
+    width: 50%;
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+
+.photo {
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: #717cff;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.button {
+    margin: 25px 0px 0px 0px;
+}
+
+span {
+    color: #717cff;
+}
+
+.h1 h1 {
+    font-size: 85px;
+}
+
+.p p {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.caption {
+    width: 70%;
+    height: 40vh;
+    text-align: center;
+    margin: auto;
+}
+
+.caption h1 {
+    font-size: 40px;
+    padding: 5vh;
+}
+
+.caption p {
+    font-size: 20px;
+}
+
+.caption h2 {
+    font-size: 40px;
+}
+
+.cards1 {
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+}
+
+.img1 {
+    width: 70px;
+    height: 70px;
+    background-color: #717cff;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.img2 {
+    width: 70px;
+    height: 70px;
+    background-color: #ff7171;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.img3 {
+    width: 70px;
+    height: 70px;
+    background-color: #a5ff71;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.img4 {
+    width: 70px;
+    height: 70px;
+    background-color: #ff7171;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.img5 {
+    width: 70px;
+    height: 70px;
+    background-color: #717cff;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.card {
+    float: left;
+    width: 300px;
+    height: 45vh;
+    text-align: left;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0px 0px 10px 0px gray;
+    border-radius: 20px;
+    margin: 20px 4.32%;
+    padding: 20px;
+}
+
+.cards2 {
+    width: 48%;
+    height: 50vh;
+    margin: auto;
+}
+
+.card a {
+    text-decoration: none;
+    color: #717cff;
+    margin: 10px 0;
+}
+
+.margin {
+    margin: 15px 0;
+}
+
+.cards3 {
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+}
+
+.card2 {
+    float: left;
+    width: 25%;
+    height: 45vh;
+    text-align: left;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0px 0px 10px 0px grey;
+    margin: 20px 4.167%;
+    border-radius: 8px;
+}
+
+.img img {
+    width: 100%;
+    height: 50%;
+}
+
+.card2 h3 {
+    margin: 15px;
+}
+
+.button2 {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
+.button2 a {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    text-decoration: none;
+    background-color: #717cff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.cards4{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+}
+
+.card3 {
+    width: 33.333%;
+    float: left;
+    padding: 30px;
+}
+
+.card3 img{
+    width: 100%;
+}
+
+.card3 h1{
+    padding: 15px;
+}
+
+.card3 p{
+    padding: 15px;
+}
+
+.applynow{
+    width: 80%;
+    height: 20vh;
+    margin: auto;
+}
+
+.contanier{
+    width: 100%;
+}
+
+.contanier h1{
+    float: left;
+    width: 40%;
+    padding: 15px;
+}
+
+.contanier a{
+    float: right;
+    padding: 15px;
+    background-color: #717cff;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #717cff;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    padding: 15px;
+}
+
+.padding{
+    padding: 5vh;
+}
+
+.area{
+    float: left;
+    width: 30%;
+}
+
+.area img{
+    margin: 0px 0 20px 0;
+}
+
+.area h4{
+    margin: 0px 0 20px 0;
+}
+
+.area h5{
+    margin: 100px 0 0 0;
+}
+
+.links{
+    width: 30%;
+    float: left;
+}
+
+.links ul li{
+    list-style: none;
+    margin: 50px 50px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
